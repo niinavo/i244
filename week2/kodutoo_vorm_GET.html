@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>2. kodutöö: GET-vorm</title>
+  </head>
+  <body>
+  <form method="get" action="kodutoo_vorm_GET.html">
+    <table border="1">
+      <caption>Palun täitke registreerimisvorm!</caption>
+      <tr>
+        <th>
+          Nimi
+        </th>
+        <td>
+          <input type="text" name="nimi" placeholder="Ees- ja perekonnanimi" size="24">
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Sugu
+        </th>
+        <td>
+            <input type="radio" name="sugu" value="n"> Naine<br>
+			<input type="radio" name="sugu" value="m"> Mees<br>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Sünniaeg
+        </th>
+        <td>
+          <input type="date" name="synd" size="20">
+        </td>
+        </tr>
+       <tr>
+          <th>Sinu vanus</th>
+          <td>
+            <input type="number" name="vanus" min="0" max="120" step="1">
+          </td>
+       </tr>
+       <tr>
+        <th>
+          Email
+        </th>
+        <td>
+          <input type="email" name="email">
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Telefon
+        </th>
+        <td>
+          <input type="tel" name="telefon">
+        </td>
+      </tr>
+      
+      <tr>
+        <td colspan="2">
+            <button type="submit">Registreeri!</button>
+        </td>
+    </tr>
+    </table>
+    </form>
+    
+    <p>
+    <a href="http://validator.w3.org/check?uri=referer">
+    <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+    </a>
+    </p>
+  </body>
+</html>
