@@ -3,21 +3,42 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Kodutöö 2. ülesanded freimi sees</title>
+    <title>Sisselogimise vorm</title>
   </head>
   <body>
-    <h1>Kodutöö 2. ülesanded</h1>
-    <ul>
-      <li><a href="kodutoo_tabelid.html" target="iframe"> Tabelid</a>
-      </li>
-      <li><a href="kodutoo_vorm_GET.html" target="iframe"> GET-vorm</a>
-      </li>
-      <li><a href="kodutoo_vorm_POST.html" target="iframe"> POST-vorm</a>
-      </li>
-      
-    </ul>
+    <form method="post" action="vorm.php">
+      <table border="1">
+        <caption>Sisselogimise vorm</caption>
+        <tr>
+          <th>
+            <label for="username-id">Kasutajanimi</label>
+          </th>
+          <td>
+            <input type="text" name="username" id="username-id" placeholder="Sisesta siia kasutajanimi" size="21">
+          </td>
+        </tr>
+        
+        <tr>
+          <th>
+            <label for="password-id">Parool</label>
+          </th>
+          <td>
+           <input type="password" name="password" id="password-id" placeholder="Sisesta parool" size="21">
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2">
+            <button type="submit">Logi sisse</button>
+          </td>
+        </tr>
+        
+      </table>
+    </form>
     
-    <iframe src="kodutoo_iframe-leht.html" name="iframe" width="700" height="400"></iframe>
+    <p>
+     <a href="praktikum_register.html">Registreeru</a>
+    </p>
     
     <ul>
       <li>
