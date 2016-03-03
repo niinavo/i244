@@ -1,0 +1,30 @@
+﻿#roheline_tekst {color: green;}
+#allajoonitud {
+    text-decoration: underline
+}
+#tumerohelise_taustaga {
+    background-color:#8FBC8F;
+}
+#topeltsuurus {
+    font-size: 200%;
+}
+#monospace {
+   font-family: monospace; 
+}
+#paks_piirjoon_kollane_taust{
+    border: 3mm solid black;
+    background-color: yellow;
+}
+#ymmargused_nurgad_katkendlik_piirjoon{
+    border: 5px dashed black;
+    border-radius: 25px;
+    padding: 2px 2px;
+}
+#italic_center-align{
+    font-style: italic;
+    text-align: center;
+    width: 180px;
+}
+#kursor_crosshair{
+    cursor:crosshair;
+}
