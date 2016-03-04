@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Võrgurakendused: praktikumide tööd ja kodutööd</title>
+    <link rel="stylesheet" type="text/css" href="avaleht.css">
 </head>
 
 <body>
 
 <img src="sun.jpg" alt="sun"/>
 
-<h1>I244: Võrgurakendused I: praktikumide tööd ja kodused tööd</h1>
+<h1>I244: Võrgurakendused I:
+<br />praktikumide tööd ja kodused tööd</h1>
 
 <ul>
     <li><a href="https://github.com/niinavo/i244">Github repository</a> </li>
@@ -18,7 +20,7 @@
 
 
 <h2>1. nädal: Sissejuhatus HTML-i</h2>
-<table border="1">
+<table>
 <tr>
   <th>Teemad</th><th>Tulemid</th>
 </tr>
@@ -31,7 +33,7 @@
     </ul>
   </td>
   <td>
-    <ol>
+    <ol class="tulemid">
 	  <li><a href="http://enos.itcollege.ee/~nvoropaj/i244/avaleht.html">See leht kooli serveris (praktikumide-kodutööde avaleht)</a> </li>
       <li><a href="kodutoo_1.html">Artikkel kodukakust</a> </li>
     </ol>
@@ -41,7 +43,7 @@
 
 
 <h2>2. nädal: HTML-i keerukamad osad</h2>
-<table border="1">
+<table>
 <tr>
   <th>Teemad</th><th>Tulemid</th>
 </tr>
@@ -57,7 +59,7 @@
     </ul>
   </td>
   <td>
-    <ol>
+    <ol class="tulemid">
 	  <li><a href="praktikum_galerii.html" >Praktikum 2: galerii</a></li>
       <li><a href="Pildilehed_infoga/leevike.html" >Praktikum 2: pildileht infoga (leevike)</a></li>
       <li><a href="Pildilehed_infoga/musträstas.html" >Praktikum 2: pildileht infoga (musträstas)</a></li>
@@ -78,22 +80,24 @@
 
 
 <h2>3. nädal: CSS sissejuhatus</h2>
-<table border="1">
+<table>
 <tr>
   <th>Teemad</th><th>Tulemid</th>
 </tr>
 <tr>
   <td>
     <ul>
-	  <li></li>
-      <li></li>
-      <li></li>
+	  <li>Kaunistada avaleht (praktikumide tööde ja koduste tööde avaleht)</li>
+      <li>Kaunistada registreerimise ja sisselogimise vormid</li>
+      <li>Kaunistada lehed: css-bot.html ja stiilid.html</li>
     </ul>
   </td>
   <td>
-    <ol>
-	  <li><a href="http://enos.itcollege.ee/~nvoropaj/i244/avaleht.html">See leht kooli serveris (praktikumide-kodutööde avaleht)</a> </li>
-      <li><a href="kodutoo_1.html">Artikkel kodukakust</a> </li>
+    <ol class="tulemid">
+	  <li><a href="http://enos.itcollege.ee/~nvoropaj/i244/avaleht.html">
+      See leht kooli serveris (praktikumide-kodutööde avaleht)</a> </li>
+      <li><a href="praktikum_register.html">Registreerimise vorm</a>,  <a href="praktikum_login.html">sisselogimise vorm</a</li>
+      <li><a href="week3/kodutoo_3_css-bot.html">css-bot.html</a>, <a href="week3/kodutoo_3_stiilid.html">stiilid.html</a> </li>
     </ol>
   </td>
 </tr>
@@ -116,16 +120,20 @@
 
 
 
-<h2>Kasutatud abimaterjalid</h2>
-<ul>
+<h2 id="materjalid">Kasutatud abimaterjalid:</h2>
+<ul class="materjalid">
 <li><a href="http://enos.itcollege.ee/~mamangus/i244/">Õppejõu poolt antud õppematerjal</a></li>
-<li><a href="http://www.w3schools.com/html/default.asp">w3schools html-i õpetus</a></li>
+<li><a href="http://www.w3schools.com/html/default.asp">w3schools HTML-i õpetus</a></li>
+<li><a href="http://www.w3schools.com/css/default.asp">w3schools CSS-i õpetus</a></li>
 </ul>
 
 
 <p>
  <a href="http://validator.w3.org/check?uri=referer">
   <img src="http://www.w3.org/Icons/valid-xhtml10" alt="html-i kontrollija" height="31" width="88" />
+ </a>
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">
+  <img id="validaator" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
  </a>
 </p>
 

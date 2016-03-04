@@ -1,0 +1,51 @@
+﻿body {
+    background-color: #80dfff;
+}
+
+h1 {
+    color: #191970;
+    font-family:Arial, sans-serif;
+    text-align: center;
+    width: 904px;
+}
+
+h2 {
+    color: #000080;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 904px;
+}
+
+table, th, td { border: 1px solid black;}
+th {font-family: Arial, sans-serif;}
+
+td {
+    width: 452px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+ul, ol {
+margin-left: -20px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#materjalid {color: green; text-decoration: none}
+
+.tulemid a, .materjalid a{
+    color: #000080;
+    text-decoration: none
+}
+
+.tulemid a:hover,  .materjalid a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+}
+
+#validaator {border: none;}

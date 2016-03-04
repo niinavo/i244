@@ -1,9 +1,10 @@
 body {
 	font-family: Arial, Sans-Serif;
+    background-color:#80dfff ;
 }
 
 .menyy {
-	margin-bottom: 10px;
+	margin-bottom: 11px;
 }
 
 .menyy ul {
@@ -13,8 +14,8 @@ body {
 }
 
 .menyy ul li {
-    background-color: #AAAAAA;
-    width: 8em;
+    background-color: red;
+    width: 145px;
     padding: 5px 10px;
     
     float: left;
@@ -30,7 +31,7 @@ body {
 }
 
 .menyy ul li.valitud {
-	background-color: blue;
+	background-color: navy;
 }
 
 .menyy ul li.valitud a {
@@ -47,7 +48,7 @@ th, td {
 }
 
 input[type="text"], input[type="password"] {
-	border: 1px dashed #AAAAAA;
+	border: 1px solid #AAAAAA;
 	border-radius: 3px;
 	padding: 5px 10px;
 	font-family: Arial, Sans-Serif;
