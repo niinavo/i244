@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kodutöö 4a: märklaud</title>
+  <style>
+    #container{
+	position: fixed;
+	left: 200px;
+	top: 150px;
+    width: 200px;
+	height: 200px;
+	}
+    .ring{
+    position: absolute;
+	border-radius: 50%;
+	z-index:1;
+	}
+    .ring:nth-child(1){
+	left: 0%;
+	top: 0%;
+    height: 100%;
+	width: 100%;
+	background: red;
+	border: red solid;
+	}
+    .ring:nth-child(2){
+	left: 10%;
+	top: 10%;
+    height: 80%;
+	width: 80%;
+    background: white;
+	border: white solid;
+	}
+    .ring:nth-child(3){
+	left: 20%;
+	top: 20%;
+    height: 60%;
+	width: 60%;
+	background: red;
+	border: red solid;
+	}
+    .ring:nth-child(4){
+	left: 30%;
+	top: 30%;
+    height: 40%;
+	width: 40%;
+    background: white;
+	border: white solid;
+	}
+    .ring:nth-child(5){
+    left: 40%;
+	top: 40%;
+    height: 20%;
+	width: 20%;
+	background: red;
+	border: red solid;
+    }
+    #pilt{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height:600px;
+	width: 800px;
+	}
+  </style>
+  </head>
+  <body>
+    <img id = "pilt" src="http://enos.itcollege.ee/~ttanav/VRI/Kodused/04/duck.png" alt = "part">
+    <div id = "container">
+		<div class = "ring"></div>
+		<div class = "ring"></div>
+		<div class = "ring"></div>
+		<div class = "ring"></div>
+		<div class = "ring"></div>
+		<div class = "ring"></div>
+	</div>
+    <script>
+	window.onload = function() {
+		var marklaud = document.getElementById("container");
+		marklaud.onclick = function(){
+			marklaud.style.left = Math.random()*600+"px"; 
+			marklaud.style.top = Math.random()*400+"px";
+		}
+	}
+	</script>
+  </body>
+</html>
