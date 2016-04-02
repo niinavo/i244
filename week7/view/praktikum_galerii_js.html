@@ -1,0 +1,22 @@
+﻿
+     <?php
+     foreach($pildid as $key => $pilt):
+     echo "<a href=\"{$pilt['big']}\" ><img src=\"{$pilt['small']}\" alt=\"{$pilt['alt']}\"></a>";
+	 endforeach;
+     ?>
+     
+    </div>
+    
+    <div id="hoidja" style="display:none;">
+      <div id="taust"></div>
+        <div id="tabel">
+          <div id="cell">
+            <div id="sulge" onclick="hideDetails();">Sulge</div>
+            <div id="sisu">
+              <img id="suurpilt" src="~nvoropaj/i244/Pildilehed_infoga/img/leevike.jpg" alt="ajutine"/><br/>
+              <span id="inf"></span><br/>
+              <span id="info"></span>
+            </div>
+        </div>
+      </div>
+    </div>

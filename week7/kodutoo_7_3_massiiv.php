@@ -33,8 +33,8 @@ array('nimi'=>'Ungari', 'kuupaev'=>'1.05.2004', 'pealinn'=>'Budapest', 'pindala'
 echo "<h1>Euroopa Liidu liikmesriigid</h1>";
 foreach($EL_liikmesriigid as $liikmesriik):
   echo "<div>";
-  echo "<p><b>EL liikmesriik</b>: {$liikmesriik['nimi']}.</p>";
-  echo "<p><b>liitumise kuupaev</b>: {$liikmesriik['kuupaev']},</p>";
+  echo "<p><b>EL liikmesriik</b>: {$liikmesriik['nimi']},</p>";
+  echo "<p><b>liitumise kuupäev</b>: {$liikmesriik['kuupaev']},</p>";
   echo "<p><b>liikmesriigi pealinn</b>: {$liikmesriik['pealinn']},</p>";
   echo "<p><b>liikmesriigi pindala (km&#178;)</b>: {$liikmesriik['pindala']}.</p>";
   echo "</div>";
