@@ -33,36 +33,7 @@ if (isset($_POST['raadius']) && $_POST['raadius']!="") {
 <html>
 <head>
 <meta charset="UTF-8" />
-<title>
-Kodutöö 8.
-</title>
-</head>
-<body>
-<p id="vorm"><?php echo $text; ?></p>
-<hr>
-<form action="kodutoo_8.php" method="POST">
-	<textarea name="tekst" rows="5" cols="40" placeholder="Kirjuta siia tekst"></textarea><br>
-	<input type="color" name="taustavarv"> Taustavärvus<br>
-	<input type="color" name="tekstivarv"> Tekstivärvus
-    <hr/>
-	<input type="number" name="laius" min="1" max="20"> Piirjoone laius (0-20px)</br>
-	<select name="borders">
-        <option value="none">none</option>
-        <option value="hidden">hidden</option>
-        <option value="solid">solid</option>
-		<option value="dashed">dashed</option>
-        <option value="dotted">dotted</option>
-		<option value="double">double</option>
-		<option value="groove">groove</option>
-		<option value="ridge">ridge</option>
-		<option value="inset">inset</option>
-		<option value="outset">outset</option>
-	</select><br>
-	<input type="color" name="piirjoonevarv"> Piirjoone värvus<br>
-	<input type="number" name="raadius" min="0" max="100"> Piirjoone nurga raadius (0-100px)
-	<hr>
-	<input type="submit" value="esita">
-</form>
+<title>Kodutöö 8.</title>
 <style>
      body{
         font-size: 20px;}
@@ -91,5 +62,33 @@ Kodutöö 8.
 		border-radius: 5px;
         font-size: 16px;}
 </style>
+</head>
+<body>
+<p id="vorm"><?php echo $text; ?></p>
+<hr>
+<form action="kodutoo_8.php" method="POST">
+	<textarea name="tekst" rows="5" cols="40" placeholder="Kirjuta siia tekst"></textarea><br>
+	<input type="color" name="taustavarv"> Taustavärvus<br>
+	<input type="color" name="tekstivarv"> Tekstivärvus
+    <hr/>
+	<input type="number" name="laius" min="1" max="20"> Piirjoone laius (0-20px)<br>
+	<select name="borders">
+        <option value="none">none</option>
+        <option value="hidden">hidden</option>
+        <option value="solid">solid</option>
+		<option value="dashed">dashed</option>
+        <option value="dotted">dotted</option>
+		<option value="double">double</option>
+		<option value="groove">groove</option>
+		<option value="ridge">ridge</option>
+		<option value="inset">inset</option>
+		<option value="outset">outset</option>
+	</select><br>
+	<input type="color" name="piirjoonevarv"> Piirjoone värvus<br>
+	<input type="number" name="raadius" min="0" max="100"> Piirjoone nurga raadius (0-100px)
+	<hr>
+	<input type="submit" value="esita">
+</form>
+
 </body>
 </html>
