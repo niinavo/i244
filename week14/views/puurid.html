@@ -1,0 +1,12 @@
+<?php foreach ($puurid as $key => $value) :?>
+<div class="puur">
+    <h5>Puur <?php echo $key; ?></h5>
+	<?php foreach ($value as $loom): ?>
+		<?php if($_SESSION['role'] == 'admin'): ?>
+			<a href = "?page=muuda&id=<?php echo $loom['id']; ?>">
+		<?php endif; ?>
+		<img src="<?php echo $loom['liik'] ?>">
+		<?php if($_SESSION['role'] == 'admin') {echo "</a>";} ?>
+	<?php endforeach; ?>
+</div>
+<?php endforeach; ?>

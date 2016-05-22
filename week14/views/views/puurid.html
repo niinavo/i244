@@ -1,0 +1,9 @@
+<?php foreach ($puurid as $key => $value) :?>
+<div>
+<?php echo $key; 
+foreach ($value as $loom) {
+	echo "<img src=\"pildid/".$loom['liik'].".png\">";
+}
+?>
+</div>
+<?php endforeach; ?>
